@@ -584,7 +584,7 @@
 .footerNote {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  padding: 15px;
   font-family: "DM sans";
   font-weight: 400;
   font-size: 18px;

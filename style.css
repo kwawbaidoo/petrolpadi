@@ -72,7 +72,7 @@
   letter-spacing: -2%;
 }
 
-.tilePara2 {
+.titlePara2 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -112,6 +112,7 @@
   align-items: center;
   gap: 80px;
   padding: 70px 55px;
+  /* background-color: red; */
 }
 
 .chooseUs {
@@ -592,4 +593,266 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 400px) {
+  .GroupPhone > img {
+    height: 415px;
+    width: 342px;
+  }
+
+  .footerNote{
+    width: 100%;
+  }
+
+  .middleSection {
+    flex-wrap: wrap;
+    gap: 80px;
+    height: 981px;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: normal;
+  }
+
+  .navBarwrapper {
+    width: 100%;
+    height: 80px;
+    padding: 0px 24px 0px 24px;
+  }
+  .navBar {
+    width: 342px;
+    height: 56px;
+  }
+
+  .services {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    gap: 80px;
+  }
+
+  .chooseUs {
+    width: 342px;
+    height: 102px;
+    gap: 16px;
+  }
+
+  .chooseUs span {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .serviceTitle {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  .serviceCardsWrapper {
+    flex-wrap: wrap;
+    width: 342px;
+    height: auto;
+    gap: 32px;
+  }
+
+  .serviceCards {
+    width: 342px;
+    height: 480px;
+    gap: 64px;
+    padding: 18px;
+  }
+
+  .cardDetails {
+    width: 294px;
+    height: 124px;
+    gap: 24px;
+  }
+
+  .cardDetails h3 {
+    font-family: "inter";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .cardDetails p {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .cardsImage {
+    width: 320px;
+    height: 380px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .cardsImage img {
+    width: 215px;
+    height: 275px;
+    float: right;
+    border-bottom-right-radius: 16px;
+  }
+
+  .orderbtn {
+    top: 300px;
+  }
+
+  .frame {
+    top: 235px;
+    left: 75px;
+  }
+
+  .frame img {
+    width: 255px;
+    height: 108px;
+  }
+
+  .downloadWrapper{
+    display: none;
+  }
+
+  .arrowWrapper h3{
+    width: 210px;
+    height: 56px;
+    font-size: 20px;
+  }
+
+  .faqContainer{
+    width: 100%;
+    height: 1100px;
+    gap: 48px;
+    padding: 64px 24px 64px 24px;
+  }
+
+  .faqTitle{
+    width: 100%;
+    height: 127px;
+    gap: 24px;
+  }
+
+  .faqTitle p {
+    font-size: 32px;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 2px;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .footerWrapper {
+    width: 100%;
+    height: 581px;
+    flex-direction: column;
+    gap: 32px;
+    padding: 10px;
+    /* padding-bottom: 0px; */
+  }
+  .allRights{
+    display: none;
+  }
+
+  .footerSectionTwo {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .faqWrapper{
+    width: 342px;
+    height: 625px;
+    gap: 29px;
+  }
+
+  .frame1{
+    width: 342px;
+    height: 274px;
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .arrowWrapper{
+    width: 100%;
+    height: 242px;
+    gap: 6px;
+  }
+
+  .arrowDownWrapper{
+    width: 100%;
+    height: 56px;
+  }
+
+  .arrowdownInfor{
+    width: 310px;
+    font-size: 16px;
+  }
+  .smallFrames{
+    width: 100%;
+    height: 88px;
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .smallFramesInfor{
+    width: 100%;
+    height: 56px;
+
+  }
+  .smallFramesInfor h3{
+    font-size: 20px;
+  }
+
+  .footerQrcode {
+    display: none;
+  }
+
+  .titlePara1 {
+    font-size: 30px;
+    width: 344px;
+    line-height: 38px;
+  }
+
+  .titlePara2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -2%;
+    height: 60px;
+  }
+
+  .downloadbtn {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 128px;
+    gap: 16;
+  }
+
+  .downloadbtn img {
+    width: 342px;
+    height: 76px;
+  }
+
+  .middleSectionTitle {
+    width: 342px;
+    height: 375px;
+    gap: 52px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 342px;
+    height: 215px;
+  }
 }

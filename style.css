@@ -41,7 +41,7 @@
   background-color: #e0334c;
   height: 800px;
   gap: 80px;
-  padding: 110px 220px;
+  padding: 140px 220px;
 }
 
 .middleSectionTitle {
@@ -478,6 +478,7 @@
   height: 331px;
   gap: 10px;
   padding: 50px;
+  border-top: 1px solid #D9DBE9;
 }
 
 .footerWrapper {

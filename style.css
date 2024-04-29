@@ -79,7 +79,7 @@
   /* line-height: 67px; */
   letter-spacing: -2%;
   width: 500px;
-}
+  }
 
 .titlePara2 {
   font-family: "Inter", sans-serif;
@@ -636,7 +636,7 @@
   line-height: 30px;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .GroupPhone > img {
     height: 415px;
     width: 342px;

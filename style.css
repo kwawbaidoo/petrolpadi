@@ -119,8 +119,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   gap: 80px;
   padding-top: 140px ;
   padding-bottom: 60px;
@@ -178,7 +178,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* padding: 10px; */
 }
 
 .cardsImage{
@@ -195,20 +194,25 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    /* border: 1px solid red; */
+    position: relative;
+    padding: 0;
 }
 
 
 .cardsImage2 img {
     width: 240px;
     height: 280px;
-    /* float: right; */
     border-bottom-right-radius: 8px;
+    /* border: 1px solid black; */
+    margin: 0;
+    position: relative;
+    bottom: -4px;
   }
 
 .cardsImage img {
   width: 240px;
   height: 280px;
-  /* float: right; */
   border-bottom-right-radius: 8px;
 }
 
@@ -219,12 +223,13 @@
   color: #e0334c;
   box-shadow: 0.5px 0px 3px black;
   position: absolute;
-  top: 250px;
+  top: 80px;
   left: 30px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .orderBtn {
@@ -634,6 +639,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);  
 }
 
 @media only screen and (max-width: 600px) {
@@ -645,6 +651,7 @@
   .footerNote{
     width: 100%;
   }
+
 
   .middleSection {
     flex-wrap: wrap;
@@ -671,7 +678,10 @@
   .services {
     width: 100%;
     height: auto;
-    padding: 20px 20px 20px 20px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 24px;
+    padding-right: 24px;
     gap: 80px;
   }
 
@@ -702,7 +712,7 @@
   .serviceCards {
     width: 342px;
     height: 480px;
-    gap: 64px;
+    gap: 24px;
     padding: 18px;
   }
 
@@ -727,8 +737,9 @@
   }
 
   .cardsImage {
-    width: 320px;
-    height: 380px;
+    width: 325px;
+    height: 316px;
+    /* margin-bottom: -8px; */
     /* border: 1px solid red; */
     display: flex;
     align-items: flex-end;
@@ -737,13 +748,14 @@
 
   .cardsImage img {
     width: 215px;
-    height: 275px;
+    height: 314px;
     float: right;
     border-bottom-right-radius: 16px;
   }
 
   .orderbtn {
-    top: 300px;
+    top: 100px;
+  left: 8px;
   }
 
   .frame {
@@ -896,5 +908,24 @@
     gap: 24px;
     width: 100%;
     height: 215px;
+  }
+
+  .cardsImage2{
+    border: 1px solid red;
+    width: 325px;
+    margin-bottom: -80px;
+    position: relative;
+    height: 316px;
+  }
+
+  .cardsImage2 img {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 215px;
+    height: 316px;
+  }
+
+  .orderbtn {
+    /* display: none; */
   }
 }
